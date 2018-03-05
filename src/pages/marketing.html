@@ -13,9 +13,11 @@ subject: My Marketing Email Template Subject
   </center>
   <row>
     <columns large="12">
-      <center>
-        <img src="https://image.ibb.co/jSSAtS/logo.png">
-      </center>
+      <spacer size="40"></spacer>
+        <center>
+          <img src="https://image.ibb.co/jfo6nn/logo.png">
+        </center>
+      <spacer size="40"></spacer>
     </columns>
   </row>
   <row>
@@ -32,39 +34,43 @@ subject: My Marketing Email Template Subject
   </row>
 
   <spacer size="16"></spacer>
-
-  <row>
+  <container class="space">  
+  <row class="space__teaser">
     <columns>
-      <h2 class="text-center" style="text-transform: uppercase;">
+      <spacer size="40"></spacer>
+      <h2 class="text-center space__title" style="text-transform: uppercase;">
         Первая площадка с декором в Москве
       </h2>
     </columns>
   </row>
-  <row>
+  <row class="space__view">
     <columns large="4">
-      <p class="text-center">
+      <spacer size="30"></spacer>
+      <h2 class="space__metr text-center">
         160 кв.м
-      </p>
-      <p class="text-center">
+      </h2>
+      <p class="space__type text-center">
         ОСНОВНОЙ ЗАЛ
-      </p>
-      <p class="text-center">
-        160 кв.м
-      </p>
-      <p class="text-center">
-        ОСНОВНОЙ ЗАЛ
+      </p> 
+      <h2 class="space__metr text-center">
+        200 кв.м
+      </h2>
+      <p class="space__type text-center">
+        ОБЩАЯ ПЛОЩАДЬ
       </p>      
     </columns>
     <columns large="8">
       <center>
-        <spacer size="30"></spacer>
-        <button class="large alert rounded text-cen" href="https://dolceloft.ru/" target="_blank">
+        <spacer size="75"></spacer>
+        <button class="large alert rounded space__btn" href="https://dolceloft.ru/" target="_blank">
           ЗАПИСАТЬСЯ НА ПРОСМОТР
         </button>
       </center>
-    </columns>    
-  </row>  
-  <row>
+    </columns>
+    </container>   
+  </row>
+  <spacer size="20"></spacer>  
+  <row class="space__desc">
     <columns large="3">
       <h5 class="text-center">
         <b>20</b> кв.м
@@ -74,9 +80,8 @@ subject: My Marketing Email Template Subject
           ПОМЕЩЕНИЕ ДЛЯ
           КЕЙТЕРИНГА
       </p>
-      <spacer size="13"></spacer>
       <center>
-        <img src="http://placehold.it/50x50">
+        <img src="https://image.ibb.co/fNG0TS/space1.png">
       </center>
     </columns>
 
@@ -90,7 +95,7 @@ subject: My Marketing Email Template Subject
       </p>
       <spacer size="20"></spacer>
       <center>
-        <img src="http://placehold.it/50x50">
+        <img src="https://image.ibb.co/fWkG2n/space2.png">
       </center>
     </columns>
 
@@ -104,7 +109,7 @@ subject: My Marketing Email Template Subject
       </p>
       <spacer size="20"></spacer>      
       <center>
-        <img src="http://placehold.it/50x50">
+        <img src="https://image.ibb.co/buWCa7/space3.png">
       </center>
     </columns>
 
@@ -118,7 +123,7 @@ subject: My Marketing Email Template Subject
       </p>
       <spacer size="20"></spacer>      
       <center>
-        <img src="http://placehold.it/50x50">
+        <img src="https://image.ibb.co/cZ3Qv7/space4.png">
       </center>
     </columns>    
   </row>
@@ -461,17 +466,49 @@ subject: My Marketing Email Template Subject
       </p>
     </columns>           
   </row>
+  <row>
+    <columns>
+      <p class="text-center price__sales">
+        Акции
+      </p>
+      <p class="text-center">
+        Раннее бронирование (не менее чем за 3 месяца)
+      </p>
+      <spacer size="16"></spacer>
+    </columns>
+  </row>
+  <row>
+    <columns small="6">
+      <p class="text-right">
+        <b>50%</b> предоплата мероприятия
+      </p>
+    </columns>
+    <columns small="6">
+      <p class="text-center">
+        Скидка <b>10%</b>
+      </p>
+    </columns>    
+  </row>  
+  <row>
+    <columns small="6">
+      <p class="text-right">
+        <b>100%</b> предоплата мероприятия
+      </p>
+    </columns>
+    <columns small="6">
+      <p class="text-center">
+        Скидка <b>30%</b>
+      </p>
+    </columns>    
+  </row>   
 
   <container class="hire">
+    <spacer size="16"></spacer>
     <row>
-      <columns small="12">
-        <h2 class="text-center hire__title">
-            В стоимость аренды лофта входит
-        </h2>
-      </columns>
-    </row>
-    <row>
-      <columns small="12" large="6">
+      <columns class="hire__price" small="12" large="6">
+          <p class="text-center hire__title">
+            В стоимость аренды <br> лофта входит
+          </p>
         <ul>
           <li>
           ПРОФЕССИОНАЛЬНОЕ СВЕТОВОЕ И ЗВУКОВОЕ ОБОРУДОВАНИЕ
@@ -495,33 +532,98 @@ subject: My Marketing Email Template Subject
           ПРИМЕРЫ РАССАДОК И РАССТАНОВОК
           </li>                 
         </ul>
-      </columns> 
-      <columns small="12" large="6">
-        <p class="text-center">
+      </columns>
+      <columns small="12" large="6"></columns>     
+    </row>
+    <spacer size="16"></spacer>
+    <row>
+      <columns class="large-offset-6" small="12" large="6">
+        <p class="hire__type-title text-center">
           А ТАКЖЕ СЕЗОННЫЙ ДЕКОР ЛОФТА:
         </p>
-        <p class="text-center">
+        <p class="hire__type text-center">
           ФОТОЗОНА
         </p>
-        <p class="text-center">
+        <p class="hire__type text-center">
           ПОТОЛОЧНЫЙ ДЕКОР
         </p>      
-        <p class="text-center">
+        <p class="hire__type text-center">
           ВХОДНАЯ ГРУППА
         </p>   
-        <p class="text-center">
+        <p class="hire__type text-center">
           ПРЕСС ВОЛЛ
         </p>
-        <p class="text-center">
+        <p class="hire__type text-center">
           КОМПОЗИЦИИ НА ОКНАХ
         </p>      
-        <p class="text-center">
+        <p class="hire__type text-center">
           ФОТО-ЭЛЕМЕНТЫ
         </p>           
-      </columns>     
+      </columns>       
     </row>
   </container>
+  <container> 
+    <h2 class="text-center">
+      Организация вашего мероприятия
+    </h2>
+    <row>
+      <columns small="12" large="3">
+        подрядчики
+        <ul>
+          <li>
+            ВИДЕО
+          </li>
+          <li>
+            ФОТО
+          </li>
+          <li>
+            ДИДЖЕЙ
+          </li>
+          <li>
+            ВЕДУЩИЙ
+          </li>
+        </ul>
+      </columns>
+      <columns small="12" large="3">
+        дополнительный персонал
+        <ul>
+          <li>
+            ГАРДЕРОБЩИК
+          </li>
+          <li>
+            ОХРАНА
+          </li>
+          <li>
+            АНИМАТОРЫ
+          </li>
+        </ul>        
+      </columns>
+      <columns small="12" large="3">
+        шоу-программы и мастер-классы
+        <ul>
+          <li>
+            ЛЮБОЙ ФОРМАТ
+          </li>
+          <li>
+            ДЛЯ ЛЮБОГО <br>
+            СОБЫТИЯ
+          </li>
+        </ul>        
+      </columns>
+      <columns small="12" large="3">
+        Тайминг и проведение
+        <ul>
+          <li>
+            ПРОГРАММЫ МЕРОПРИЯТИЙ
+          </li>
+          <li>
+            ГОТОВЫЕ ИДЕИ
+          </li>
+        </ul>        
+      </columns>
 
+    </row>
+  </container>
   <row class="collapsed footer">
     <columns>
       <spacer size="16"></spacer>

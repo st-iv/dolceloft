@@ -55,7 +55,9 @@ table.button.google table td {
 }
 
 table.about {
-  background: url("https://image.ibb.co/gbPRk7/3blacked.jpg");
+  background: url("https://image.ibb.co/gbPRk7/3blacked.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .about__desc {
@@ -68,14 +70,77 @@ table.about {
 
 .price__desc {
   background: #fffbe8;
+  text-transform: uppercase;
 }
 
 table.hire {
-  background: #ccc;
+  background: url("https://image.ibb.co/i4mZ7n/IMG_4464_min.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;  
 }
 
 .hire__title {
   color: #000;
   font-weight: bold;
   text-transform: uppercase;
+  // border-bottom: 2px solid #fcddb6;
+}
+
+// table.space {
+//   background:url("");
+// }
+.space__desc {
+  background: #fff;
+}
+
+.space__teaser {
+    background: url(https://image.ibb.co/kT9thn/FREE6115_min.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.space__title {
+  font-weight: bold;
+  color: #404040;
+}
+
+.space__view {
+  background: #7c7c7c;
+}
+
+.space__metr {
+  color: #fff;
+  font-weight: bold;
+}
+
+.space__type {
+  color: #fff;
+}
+
+table.button.alert table a {
+  font-weight: normal;
+  text-align: center;
+}
+
+.price__sales {
+  background: #e5b3cc;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+ tbody > tr > th.hire__price > table > tbody > tr > th {
+  background: #fff;
+}
+
+ table.container.hire > tbody > tr > td > table:nth-child(4) > tbody > tr > th > table > tbody > tr > th {
+  background: #392c2f;
+}
+
+.hire__type {
+  color: #fff;
+}
+
+.hire__type-title {
+  font-weight: bold;
+  color: #fff;
 }
