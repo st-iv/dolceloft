@@ -74,7 +74,7 @@ table.about {
 }
 
 table.hire {
-  background: url("https://image.ibb.co/i4mZ7n/IMG_4464_min.jpg") no-repeat;
+  background: url("https://image.ibb.co/dCYJYS/IMG_4464_min.jpg") no-repeat;
   background-size: cover;
   background-position: center;  
 }
@@ -143,4 +143,37 @@ table.button.alert table a {
 .hire__type-title {
   font-weight: bold;
   color: #fff;
+}
+
+table.org ul {
+  padding: 16px;
+}
+
+.org__img {
+  max-width: 269px;
+  height: auto !important;
+}
+
+.org__subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #404040;
+
+}
+
+.org__title {
+  text-transform: uppercase;
+}
+
+table.services {
+  background: url("https://image.ibb.co/jaP0xn/servicesbg_min.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.services__title {
+  padding: 5px;
+  background: #fff;
+  text-transform: uppercase;
 }
