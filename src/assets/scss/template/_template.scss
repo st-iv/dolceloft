@@ -68,10 +68,13 @@ table.about {
   height: 135px;
 }
 
-.price__desc {
-  background: #fffbe8;
-  text-transform: uppercase;
-}
+// .price__desc {
+//   background: #fffbe8 !important;
+//     p {
+//       text-transform: uppercase;
+//     }
+  
+// }
 
 table.hire {
   background: url("https://image.ibb.co/dCYJYS/IMG_4464_min.jpg") no-repeat;
@@ -83,29 +86,31 @@ table.hire {
   color: #000;
   font-weight: bold;
   text-transform: uppercase;
-  // border-bottom: 2px solid #fcddb6;
 }
 
-// table.space {
-//   background:url("");
-// }
 .space__desc {
   background: #fff;
 }
 
-.space__teaser {
+table.space {
     background: url(https://image.ibb.co/kT9thn/FREE6115_min.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
+.space__teaser {
+
+}
+
 .space__title {
   font-weight: bold;
   color: #404040;
+  text-transform: uppercase;
 }
 
 .space__view {
-  background: #7c7c7c;
+  // background: #7c7c7c;
+  background: rgba(0,0,0,.5);
 }
 
 .space__metr {
@@ -123,17 +128,20 @@ table.button.alert table a {
 }
 
 .price__sales {
-  background: #e5b3cc;
-  color: #fff;
-  text-transform: uppercase;
+  background: #e5b3cc !important;
+    p {
+      color: #fff;
+      text-transform: uppercase;
+    }
 }
+
 
  tbody > tr > th.hire__price > table > tbody > tr > th {
   background: #fff;
 }
 
- table.container.hire > tbody > tr > td > table:nth-child(4) > tbody > tr > th > table > tbody > tr > th {
-  background: #392c2f;
+.olive {
+  background: #392c2f !important;
 }
 
 .hire__type {
@@ -172,8 +180,80 @@ table.services {
   height: 300px;
 }
 
-.services__title {
-  padding: 5px;
-  background: #fff;
+.contacts__view-btn a {
+  color: #000 !important;
+  text-transform: uppercase;
+}
+
+table.contacts__map {
+  background: url(https://image.ibb.co/c2o5xn/contacts_map.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.services__desc {
+  text-transform: uppercase;
+}
+
+hr {
+ border: none;
+ color: #fcddb6;
+ background-color: #fcddb6;
+ height: 2px;
+}
+
+li {
+    color: #deb0b9; /* Цвет маркеров */
+}
+
+li span {
+  color: #000;
+}
+
+.up_text {
+  text-transform: uppercase;
+}
+
+.services__company {
+  height: 38px;
+  width: auto;
+}
+
+.services__img {
+  height: 100px;
+  width: 100px;
+}
+
+table.gallery {
+  background: url(https://image.ibb.co/m1mYYS/gallerybg.png) no-repeat;
+    background-size: contain;
+  background-position: center;
+  min-height: 300px;
+}
+
+.main__logo {
+  height: 150px;
+  width: auto;
+}
+
+.map__desc {
+  color: #fff;
+}
+
+@media screen and (max-width: 596px) {
+  table.gallery {
+    min-height: 200px;
+  }
+  .map__desc {
+    text-align: center !important;
+  }
+}
+
+.price__desc {
+  font-size: 12px;
+}
+
+.logo__desc {
+  font-size: 19px;
   text-transform: uppercase;
 }
